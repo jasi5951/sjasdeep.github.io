@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: University of Colorado Boulder | <a href='https://plv.colorado.edu//'>Programming Languages and Verification Laboratory</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Undergraduate Researcher</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fifth-year undergraduate at the University of Colorado Boulder, pursuing a B.S. in Computer Science and a B.S. in Applied Mathematics, along with a minor in Statistics and the Quantitative Finance Certificate. I expect to graduate in May 2026.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie at the intersection of optimization, machine learning, neural networks, and human-computer interaction. I am currently advised by Professor [Sriram Sankaranarayanan](https://home.cs.colorado.edu/~srirams/) and conduct research in the [Programming Languages and Verification Laboratory](https://plv.colorado.edu//). My current work focuses on providing effective feedback to users in a 2D drone simulation environment by computing optimal corrective trajectories and leveraging large language models for interactive feedback.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I plan to pursue a Ph.D. starting in Fall 2026, with the goal of contributing to the academic community through research and teaching.
+
+Outside of academics, I enjoy playing basketball, tennis, and pickleball.
