@@ -398,16 +398,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-attended-hscc-cps-iot-week-2024-in-hong-kong-china",
+          title: 'Attended HSCC @ CPS IoT Week 2024 in Hong Kong, China',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-the-10-week-research-program-at-purdue-university",
+          title: 'Started the 10 week research program at Purdue University',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-presented-at-the-undergraduate-research-symposium",
+          title: 'Presented at the Undergraduate Research Symposium',
+          description: "",
+          section: "News",},{id: "news-accepted-the-intelligent-systems-in-electrical-engineering-and-computer-engineering-reu-at-the-university-of-utah",
+          title: 'Accepted the Intelligent Systems in Electrical Engineering and Computer Engineering REU at the...',
+          description: "",
+          section: "News",},{id: "news-started-the-reu-program-at-the-university-of-utah",
+          title: 'Started the REU program at the University of Utah',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
