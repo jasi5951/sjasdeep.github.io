@@ -404,14 +404,14 @@ ninja.data = [{
           section: "News",},{id: "news-started-the-10-week-research-program-at-purdue-university",
           title: 'Started the 10 week research program at Purdue University',
           description: "",
-          section: "News",},{id: "news-presented-at-the-undergraduate-research-symposium",
-          title: 'Presented at the Undergraduate Research Symposium',
-          description: "",
           section: "News",},{id: "news-accepted-the-intelligent-systems-in-electrical-engineering-and-computer-engineering-reu-at-the-university-of-utah",
           title: 'Accepted the Intelligent Systems in Electrical Engineering and Computer Engineering REU at the...',
           description: "",
           section: "News",},{id: "news-started-the-reu-program-at-the-university-of-utah",
           title: 'Started the REU program at the University of Utah',
+          description: "",
+          section: "News",},{id: "news-presented-at-the-undergraduate-research-symposium",
+          title: 'Presented at the Undergraduate Research Symposium',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -473,13 +473,6 @@ ninja.data = [{
           window.open("https://github.com/sjasdeep", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -494,25 +487,11 @@ ninja.data = [{
           window.open("https://orcid.org/0009-0000-2759-3721", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=XKdO5YUAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
