@@ -1,6 +1,25 @@
 ---
 ---
 
+@inproceedings{10.1145/3641513.3650180,
+author = {Schirmer, Sebastian and Singh, Jasdeep and Jensen, Emily and Dauer, Johann and Finkbeiner, Bernd and Sankaranarayanan, Sriram},
+title = {Temporal Behavior Trees: Robustness and Segmentation},
+year = {2024},
+isbn = {9798400705229},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3641513.3650180},
+doi = {10.1145/3641513.3650180},
+abstract = {This paper presents temporal behavior trees (TBT), a specification formalism inspired by behavior trees that are commonly used to program robotic applications. We then introduce the concept of trace segmentation, wherein given a TBT specification and a trace, we split the trace optimally into sub-traces that are associated with various portions of the TBT specification. Segmentation of a trace then serves to explain precisely how a trace satisfies or violates a specification, and which portions of a specification are actually violated. We introduce the syntax and semantics of TBT and compare their expressiveness in relation to temporal logic. Next, we define robustness semantics for TBT specification with respect to a trace. Rather than a Boolean interpretation, the robustness provides a real-valued numerical outcome that quantifies how close or far away a trace is from satisfying or violating a TBT specification. We show that computing the robustness of a trace also segments it into subtraces.Finally, we provide efficient approximations for computing robustness and segmentation for long traces with guarantees on the result.We demonstrate how segmentations are useful through applications such as understanding how novice users pilot an aerial vehicle through a sequence of waypoints in desktop experiments and the offline monitoring of automated lander for a drone on a ship. Our case studies demonstrate how TBT specification and segmentation can be used to understand and interpret complex behaviors of humans and automation in cyber-physical systems.},
+booktitle = {Proceedings of the 27th ACM International Conference on Hybrid Systems: Computation and Control},
+articleno = {9},
+numpages = {14},
+keywords = {Cyber-physical system, offline analysis, segmentation, temporal behavior trees, temporal logic},
+location = {Hong Kong SAR, China},
+series = {HSCC '24},
+selected = {true}
+}
+
 @inproceedings{ganesh-etal-2022-response,
     title = "Response Construct Tagging: {NLP}-Aided Assessment for Engineering Education",
     author = "Ganesh, Ananya  and
@@ -28,23 +47,4 @@
     pages = "250--261",
     abstract = "Recent advances in natural language processing (NLP) have greatly helped educational applications, for both teachers and students. In higher education, there is great potential to use NLP tools for advancing pedagogical research. In this paper, we focus on how NLP can help understand student experiences in engineering, thus facilitating engineering educators to carry out large scale analysis that is helpful for re-designing the curriculum. Here, we introduce a new task we call response construct tagging (RCT), in which student responses to tailored survey questions are automatically tagged for six constructs measuring transformative experiences and engineering identity of students. We experiment with state-of-the-art classification models for this task and investigate the effects of different sources of additional information. Our best model achieves an F1 score of 48. We further investigate multi-task training on the related task of sentiment classification, which improves our model{'}s performance to 55 F1. Finally, we provide a detailed qualitative analysis of model performance.",
     selected = {true}
-}
-
-@inproceedings{10.1145/3641513.3650180,
-author = {Schirmer, Sebastian and Singh, Jasdeep and Jensen, Emily and Dauer, Johann and Finkbeiner, Bernd and Sankaranarayanan, Sriram},
-title = {Temporal Behavior Trees: Robustness and Segmentation},
-year = {2024},
-isbn = {9798400705229},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3641513.3650180},
-doi = {10.1145/3641513.3650180},
-abstract = {This paper presents temporal behavior trees (TBT), a specification formalism inspired by behavior trees that are commonly used to program robotic applications. We then introduce the concept of trace segmentation, wherein given a TBT specification and a trace, we split the trace optimally into sub-traces that are associated with various portions of the TBT specification. Segmentation of a trace then serves to explain precisely how a trace satisfies or violates a specification, and which portions of a specification are actually violated. We introduce the syntax and semantics of TBT and compare their expressiveness in relation to temporal logic. Next, we define robustness semantics for TBT specification with respect to a trace. Rather than a Boolean interpretation, the robustness provides a real-valued numerical outcome that quantifies how close or far away a trace is from satisfying or violating a TBT specification. We show that computing the robustness of a trace also segments it into subtraces.Finally, we provide efficient approximations for computing robustness and segmentation for long traces with guarantees on the result.We demonstrate how segmentations are useful through applications such as understanding how novice users pilot an aerial vehicle through a sequence of waypoints in desktop experiments and the offline monitoring of automated lander for a drone on a ship. Our case studies demonstrate how TBT specification and segmentation can be used to understand and interpret complex behaviors of humans and automation in cyber-physical systems.},
-booktitle = {Proceedings of the 27th ACM International Conference on Hybrid Systems: Computation and Control},
-articleno = {9},
-numpages = {14},
-keywords = {Cyber-physical system, offline analysis, segmentation, temporal behavior trees, temporal logic},
-location = {Hong Kong SAR, China},
-series = {HSCC '24},
-selected = {true}
 }
