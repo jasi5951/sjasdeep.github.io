@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/resume/";
+            window.location.href = "/assets/pdf/JasdeepResume.pdf";
           },
         },{id: "nav-cv",
           title: "cv",
