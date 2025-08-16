@@ -6,7 +6,7 @@ subtitle: University of Colorado Boulder | <a href='https://plv.colorado.edu//'>
 
 profile:
   align: right
-  image: IMG_9615.jpg
+  image: IMG_Prof_Pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Undergraduate Researcher</p>
